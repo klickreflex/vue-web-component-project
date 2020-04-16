@@ -25,5 +25,10 @@ yarn run test
 yarn run lint
 ```
 
+### Build distributable Web Component bundle
+```
+npx vue-cli-service build --target wc --name my-custom-element ./src/main.js
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
