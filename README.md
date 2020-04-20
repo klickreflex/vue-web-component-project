@@ -27,7 +27,7 @@ yarn run lint
 
 ### Build distributable Web Component bundle
 ```
-npx vue-cli-service build --target wc --name my-custom-element ./src/main.js
+npx vue-cli-service build --target wc --name my-custom-element ./src/components/VueWebComponent.vue
 ```
 
 ### Customize configuration
